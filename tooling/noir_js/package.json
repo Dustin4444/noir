@@ -18,8 +18,8 @@
   },
   "dependencies": {
     "@noir-lang/acvm_js": "workspace:*",
-    "@noir-lang/noirc_abi": "workspace:*",
-    "@noir-lang/types": "workspace:*",
+    "@noir-lang/noirc_abi": "0.8.0",
+    "@noir-lang/types": "0.14.1",
     "pako": "^2.1.0"
   },
   "files": [
