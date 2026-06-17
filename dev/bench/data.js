@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781700410240,
+  "lastUpdate": 1781700457073,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -3978,85 +3978,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "asterite@gmail.com",
-            "name": "Ary Borenszweig",
-            "username": "asterite"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "f645c2892dff4b4a15d58cecfc4f7cc406424720",
-          "message": "fix: put constraint failure after binary operations that overflow (#9023)\n\nCo-authored-by: Akosh Farkash <aakoshh@gmail.com>",
-          "timestamp": "2025-06-28T00:14:46Z",
-          "tree_id": "83e654682eaf7cd9a94a5014afe34f07fa3f15a7",
-          "url": "https://github.com/noir-lang/noir/commit/f645c2892dff4b4a15d58cecfc4f7cc406424720"
-        },
-        "date": 1751071440882,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "private-kernel-inner",
-            "value": 2.266,
-            "unit": "s"
-          },
-          {
-            "name": "private-kernel-reset",
-            "value": 7.414,
-            "unit": "s"
-          },
-          {
-            "name": "private-kernel-tail",
-            "value": 1.114,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-base-private",
-            "value": 16.3,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-base-public",
-            "value": 13.92,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-block-root-empty",
-            "value": 18.42,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-block-root-single-tx",
-            "value": 185,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-block-root",
-            "value": 179,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-merge",
-            "value": 1.208,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-root",
-            "value": 1.274,
-            "unit": "s"
-          },
-          {
-            "name": "semaphore-depth-10",
-            "value": 0.782,
-            "unit": "s"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "163862677+noirwhal@users.noreply.github.com",
             "name": "noirwhal",
             "username": "noirwhal"
@@ -7941,6 +7862,105 @@ window.BENCHMARK_DATA = {
           {
             "name": "sha512-100-bytes",
             "value": 1.5,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aakoshh@gmail.com",
+            "name": "Akosh Farkash",
+            "username": "aakoshh"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8d3564e9bb0975607d0c36a70e96bdefc2eb15ea",
+          "message": "fix(ssa): Do not deduplicate with instruction result potentially modified by vector intrinsic (#12993)",
+          "timestamp": "2026-06-16T22:02:25Z",
+          "tree_id": "13522b3a45a6c90994a8ab39e2d6f2c841e4df28",
+          "url": "https://github.com/Dustin4444/noir/commit/8d3564e9bb0975607d0c36a70e96bdefc2eb15ea"
+        },
+        "date": 1781700443436,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 7.136,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 20.24,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 3.978,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 2.236,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 2.14,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 2.27,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 2.34,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 265,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 309,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-root",
+            "value": 2.318,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 20.9,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 110.4,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 2.328,
+            "unit": "s"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 1.263,
+            "unit": "s"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 1.705,
             "unit": "s"
           }
         ]
