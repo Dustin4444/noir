@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781675866104,
+  "lastUpdate": 1781675870615,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -25356,6 +25356,107 @@ window.BENCHMARK_DATA = {
             "name": "sha512-100-bytes",
             "value": 13173,
             "unit": "opcodes"
+          }
+        ]
+      }
+    ],
+    "Elaboration Time": [
+      {
+        "commit": {
+          "author": {
+            "email": "aakoshh@gmail.com",
+            "name": "Akosh Farkash",
+            "username": "aakoshh"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4b972fd171973e6e20f8e87bf1af3bfa861aed4b",
+          "message": "fix(ssa): Add constraint when simplifying zero-sized vector remove (#13069)",
+          "timestamp": "2026-06-16T16:39:08Z",
+          "tree_id": "49113cab2c027141dfd0dd002dc1d126642d5cae",
+          "url": "https://github.com/Dustin4444/noir/commit/4b972fd171973e6e20f8e87bf1af3bfa861aed4b"
+        },
+        "date": 1781675855887,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 1.216,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 1.234,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 1.276,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 1.88,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 1.78,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 1.82,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 1.874,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 1.47,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 1.85,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-root",
+            "value": 1.828,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 1.926,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 1.868,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 1.8,
+            "unit": "s"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 0.266,
+            "unit": "s"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 0.203,
+            "unit": "s"
           }
         ]
       }
