@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781729367254,
+  "lastUpdate": 1781734679457,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -11502,75 +11502,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "163862677+noirwhal@users.noreply.github.com",
-            "name": "noirwhal",
-            "username": "noirwhal"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "2c4cf37e721661faed12d97e2968af27f83c3ee5",
-          "message": "chore: bump external pinned commits (#9046)\n\nCo-authored-by: noirwhal <tomfrench@aztecprotocol.com>\nCo-authored-by: Tom French <15848336+TomAFrench@users.noreply.github.com>",
-          "timestamp": "2025-06-30T11:07:51Z",
-          "tree_id": "6b816a70059157feb87c9ba095140cdcf53e6c54",
-          "url": "https://github.com/noir-lang/noir/commit/2c4cf37e721661faed12d97e2968af27f83c3ee5"
-        },
-        "date": 1751283960287,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "private-kernel-inner",
-            "value": 202.71,
-            "unit": "MB"
-          },
-          {
-            "name": "private-kernel-reset",
-            "value": 226.5,
-            "unit": "MB"
-          },
-          {
-            "name": "private-kernel-tail",
-            "value": 178.04,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-base-private",
-            "value": 508.01,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-base-public",
-            "value": 441.22,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-block-root",
-            "value": 1510,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-merge",
-            "value": 330.09,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-root",
-            "value": 332.69,
-            "unit": "MB"
-          },
-          {
-            "name": "semaphore_depth_10",
-            "value": 71.01,
-            "unit": "MB"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "asterite@gmail.com",
             "name": "Ary Borenszweig",
             "username": "asterite"
@@ -14920,6 +14851,95 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Dustin4444/noir/commit/8d3564e9bb0975607d0c36a70e96bdefc2eb15ea"
         },
         "date": 1781701353861,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 287.88,
+            "unit": "MB"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 312.35,
+            "unit": "MB"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 283.93,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 360.66,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 360.61,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 1280,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 1280,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-root",
+            "value": 360.77,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 468.28,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 478.74,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 360.3,
+            "unit": "MB"
+          },
+          {
+            "name": "semaphore_depth_10",
+            "value": 82.46,
+            "unit": "MB"
+          },
+          {
+            "name": "sha512_100_bytes",
+            "value": 78.14,
+            "unit": "MB"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asterite@gmail.com",
+            "name": "Ary Borenszweig",
+            "username": "asterite"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0e18f896406762fdf01024eeb07196d6d2c4f323",
+          "message": "fix: missing lazy FuncMeta elaboration in global resolution (#13059)",
+          "timestamp": "2026-06-17T08:36:54Z",
+          "tree_id": "73320cd4c2f45d2dd9a8579ba1b41a9927122327",
+          "url": "https://github.com/Dustin4444/noir/commit/0e18f896406762fdf01024eeb07196d6d2c4f323"
+        },
+        "date": 1781734664834,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
