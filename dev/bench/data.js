@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781819176799,
+  "lastUpdate": 1781819209062,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -26822,6 +26822,105 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Dustin4444/noir/commit/2a6b6be7a4aae17dd7b1cbe26e24c680fddb46c1"
         },
         "date": 1781770154542,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 807.8,
+            "unit": "KB"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 774.1,
+            "unit": "KB"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 371.2,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 320.5,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 324.3,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 385.8,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 295.4,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 588.8,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 630.9,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-root",
+            "value": 457.9,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 687,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 860.2,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 241.5,
+            "unit": "KB"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 2074.1,
+            "unit": "KB"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 151.2,
+            "unit": "KB"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "53cd28963383bb52b350c4d1bbeb8dd048962cf8",
+          "message": "chore(deps): bump markdown-it from 14.1.1 to 14.2.0 in /docs (#13088)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-18T09:18:39Z",
+          "tree_id": "449c5073c9d1747c9f71852897e05856f1789ca9",
+          "url": "https://github.com/Dustin4444/noir/commit/53cd28963383bb52b350c4d1bbeb8dd048962cf8"
+        },
+        "date": 1781819192794,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
