@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781947452489,
+  "lastUpdate": 1781947454788,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -29005,6 +29005,105 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Dustin4444/noir/commit/e4dcf93004bb5d5412c8acceb9a09d87987e57d5"
         },
         "date": 1781893900241,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 17660,
+            "unit": "opcodes"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 84400,
+            "unit": "opcodes"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 8680,
+            "unit": "opcodes"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 1038,
+            "unit": "opcodes"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 922,
+            "unit": "opcodes"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 2116,
+            "unit": "opcodes"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 1271,
+            "unit": "opcodes"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 1387601,
+            "unit": "opcodes"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 1388791,
+            "unit": "opcodes"
+          },
+          {
+            "name": "rollup-root",
+            "value": 1526,
+            "unit": "opcodes"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 244853,
+            "unit": "opcodes"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 280147,
+            "unit": "opcodes"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 1303,
+            "unit": "opcodes"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 5699,
+            "unit": "opcodes"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 13173,
+            "unit": "opcodes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49558828+AztecBot@users.noreply.github.com",
+            "name": "Aztec Bot",
+            "username": "AztecBot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e0b8f27095e2b8ad8926fdad3fd15194639f0767",
+          "message": "fix: parse parenthesized numeric type expressions before outer operators (#13109)",
+          "timestamp": "2026-06-19T08:43:35Z",
+          "tree_id": "0eee4f5b032966426ae5f12dcadfac41194bb8b7",
+          "url": "https://github.com/Dustin4444/noir/commit/e0b8f27095e2b8ad8926fdad3fd15194639f0767"
+        },
+        "date": 1781947438037,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
