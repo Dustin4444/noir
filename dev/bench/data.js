@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781951146036,
+  "lastUpdate": 1781951152541,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -21752,85 +21752,6 @@ window.BENCHMARK_DATA = {
             "name": "GitHub",
             "username": "web-flow"
           },
-          "distinct": false,
-          "id": "c109ac7b68487a6b6fa76e0abf9911797f99ea91",
-          "message": "chore(acir_gen): Improve error message for radix decomposition (#9068)",
-          "timestamp": "2025-07-01T12:24:22Z",
-          "tree_id": "800830797cfc66364bfb1974a2ee9b90bcce86d2",
-          "url": "https://github.com/noir-lang/noir/commit/c109ac7b68487a6b6fa76e0abf9911797f99ea91"
-        },
-        "date": 1751374391638,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "private-kernel-inner",
-            "value": 1127.4,
-            "unit": "KB"
-          },
-          {
-            "name": "private-kernel-reset",
-            "value": 2067.9,
-            "unit": "KB"
-          },
-          {
-            "name": "private-kernel-tail",
-            "value": 585,
-            "unit": "KB"
-          },
-          {
-            "name": "rollup-base-private",
-            "value": 4934.4,
-            "unit": "KB"
-          },
-          {
-            "name": "rollup-base-public",
-            "value": 3975.6,
-            "unit": "KB"
-          },
-          {
-            "name": "rollup-block-root-empty",
-            "value": 3868.7,
-            "unit": "KB"
-          },
-          {
-            "name": "rollup-block-root-single-tx",
-            "value": 32731.7,
-            "unit": "KB"
-          },
-          {
-            "name": "rollup-block-root",
-            "value": 32749.7,
-            "unit": "KB"
-          },
-          {
-            "name": "rollup-merge",
-            "value": 176.8,
-            "unit": "KB"
-          },
-          {
-            "name": "rollup-root",
-            "value": 389.5,
-            "unit": "KB"
-          },
-          {
-            "name": "semaphore-depth-10",
-            "value": 636.4,
-            "unit": "KB"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "mvezenov@gmail.com",
-            "name": "Maxim Vezenov",
-            "username": "vezenovm"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
           "distinct": true,
           "id": "2b0f596b8dc153936f321e09adf2380d0ffeb845",
           "message": "chore(debug): Toggle SSA locations when printing SSA  (#9066)\n\nCo-authored-by: jfecher <jfecher11@gmail.com>",
@@ -25791,6 +25712,105 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Dustin4444/noir/commit/e0b8f27095e2b8ad8926fdad3fd15194639f0767"
         },
         "date": 1781947394527,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 1047.8,
+            "unit": "KB"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 2247.5,
+            "unit": "KB"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 533.2,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 272.4,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 275.8,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 333.2,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 413.2,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 30628.7,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 30663.7,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-root",
+            "value": 438.1,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 4579.2,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 5167.7,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 206.2,
+            "unit": "KB"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 502.8,
+            "unit": "KB"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 450.9,
+            "unit": "KB"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asterite@gmail.com",
+            "name": "Ary Borenszweig",
+            "username": "asterite"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bab1ec1e0f06e48c1a28121e840d48cd6ba85d6c",
+          "message": "fix(frontend): roll back `GlobalValue::Resolving` sentinel on failed comptime global resolution (#13067)\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-06-19T13:11:03Z",
+          "tree_id": "fd18aad829556cb297b58277f89650b546e61a46",
+          "url": "https://github.com/Dustin4444/noir/commit/bab1ec1e0f06e48c1a28121e840d48cd6ba85d6c"
+        },
+        "date": 1781951136838,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
