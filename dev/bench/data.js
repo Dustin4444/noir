@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782212883043,
+  "lastUpdate": 1782228698023,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -32581,6 +32581,105 @@ window.BENCHMARK_DATA = {
           {
             "name": "sha512-100-bytes",
             "value": 0.257,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "aakoshh@gmail.com",
+            "name": "Akosh Farkash",
+            "username": "aakoshh"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8a14aa49857ffc7bebc2436042969a173ea8313d",
+          "message": "feat(stdlib): Add `BoundedVec::set_len` (#13136)\n\nCo-authored-by: Ahmed Elghareeb <ahmed.elghareeb@proton.me>",
+          "timestamp": "2026-06-23T08:54:49Z",
+          "tree_id": "1f8a3b1b0c615464a5735b9c9a25a4cf86518622",
+          "url": "https://github.com/Dustin4444/noir/commit/8a14aa49857ffc7bebc2436042969a173ea8313d"
+        },
+        "date": 1782228684079,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 1.254,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 1.246,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 1.27,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 1.762,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 1.79,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 1.92,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 1.786,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 1.79,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 1.72,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-root",
+            "value": 1.848,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 1.854,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 1.848,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 1.776,
+            "unit": "s"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 0.267,
+            "unit": "s"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 0.261,
             "unit": "s"
           }
         ]
