@@ -1,87 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782290077955,
+  "lastUpdate": 1782290105492,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
-      {
-        "commit": {
-          "author": {
-            "email": "47281315+guipublic@users.noreply.github.com",
-            "name": "guipublic",
-            "username": "guipublic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "0fffba16cf635ccf6d3e4e1a49914c1997ced2f5",
-          "message": "chore: error on infinite recursion (#9063)",
-          "timestamp": "2025-07-01T16:33:50Z",
-          "tree_id": "e68d2a7ffaa4e0b360dc260400eca6be939e0b02",
-          "url": "https://github.com/noir-lang/noir/commit/0fffba16cf635ccf6d3e4e1a49914c1997ced2f5"
-        },
-        "date": 1751390584603,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "private-kernel-inner",
-            "value": 280.17,
-            "unit": "MB"
-          },
-          {
-            "name": "private-kernel-reset",
-            "value": 534.01,
-            "unit": "MB"
-          },
-          {
-            "name": "private-kernel-tail",
-            "value": 184.58,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-base-private",
-            "value": 1400,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-base-public",
-            "value": 1530,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-block-root-empty",
-            "value": 1090,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-block-root-single-tx",
-            "value": 9380,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-block-root",
-            "value": 9390,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-merge",
-            "value": 333.56,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-root",
-            "value": 343.59,
-            "unit": "MB"
-          },
-          {
-            "name": "semaphore_depth_10",
-            "value": 106.39,
-            "unit": "MB"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -4229,6 +4150,105 @@ window.BENCHMARK_DATA = {
           {
             "name": "sha512_100_bytes",
             "value": 149.95,
+            "unit": "MB"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jfecher11@gmail.com",
+            "name": "jfecher",
+            "username": "jfecher"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4123bd2111aff3d3091187aa751f4fc41ec8d684",
+          "message": "fix(ssa): trap constant out-of-bounds Brillig array ops instead of al… (#13114)\n\nCo-authored-by: Aztec Bot <49558828+AztecBot@users.noreply.github.com>",
+          "timestamp": "2026-06-23T15:21:54Z",
+          "tree_id": "f3d2b21f0e31c83099588ca1e84bb7d5105f7610",
+          "url": "https://github.com/Dustin4444/noir/commit/4123bd2111aff3d3091187aa751f4fc41ec8d684"
+        },
+        "date": 1782290090002,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 300.39,
+            "unit": "MB"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 524.44,
+            "unit": "MB"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 281.24,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 361.72,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 361.72,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 362.73,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 361.72,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 6070,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 6070,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-root",
+            "value": 361.87,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 871.51,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 2830,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 361.72,
+            "unit": "MB"
+          },
+          {
+            "name": "semaphore_depth_10",
+            "value": 104.6,
+            "unit": "MB"
+          },
+          {
+            "name": "sha512_100_bytes",
+            "value": 150.13,
             "unit": "MB"
           }
         ]
