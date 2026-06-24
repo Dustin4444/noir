@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782290034923,
+  "lastUpdate": 1782290037576,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -33335,6 +33335,105 @@ window.BENCHMARK_DATA = {
           {
             "name": "sha512-100-bytes",
             "value": 0.261,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jfecher11@gmail.com",
+            "name": "jfecher",
+            "username": "jfecher"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4123bd2111aff3d3091187aa751f4fc41ec8d684",
+          "message": "fix(ssa): trap constant out-of-bounds Brillig array ops instead of al… (#13114)\n\nCo-authored-by: Aztec Bot <49558828+AztecBot@users.noreply.github.com>",
+          "timestamp": "2026-06-23T15:21:54Z",
+          "tree_id": "f3d2b21f0e31c83099588ca1e84bb7d5105f7610",
+          "url": "https://github.com/Dustin4444/noir/commit/4123bd2111aff3d3091187aa751f4fc41ec8d684"
+        },
+        "date": 1782290020070,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 1.278,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 1.248,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 1.226,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 1.84,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 1.84,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 1.8,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 1.826,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 1.88,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 2.1,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-root",
+            "value": 1.836,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 1.804,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 1.76,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 1.786,
+            "unit": "s"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 0.284,
+            "unit": "s"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 0.26,
             "unit": "s"
           }
         ]
