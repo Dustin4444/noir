@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782290105492,
+  "lastUpdate": 1782294955711,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -27973,6 +27973,105 @@ window.BENCHMARK_DATA = {
           {
             "name": "sha512-100-bytes",
             "value": 0.379,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asterite@gmail.com",
+            "name": "Ary Borenszweig",
+            "username": "asterite"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1fb484651cea30c2df649d63b169ff95c49569e9",
+          "message": "fix(frontend): accept signed integer MIN literals in type position (#13131)\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-06-23T20:06:53Z",
+          "tree_id": "3558177514403624b8390bf3215cec097f18fc2c",
+          "url": "https://github.com/Dustin4444/noir/commit/1fb484651cea30c2df649d63b169ff95c49569e9"
+        },
+        "date": 1782294941821,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 1.846,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 2.024,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 1.688,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 2.106,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 1.2,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 2.16,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 2.18,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 2.76,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 3,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-root",
+            "value": 1.816,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 2.232,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 2.378,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 2.204,
+            "unit": "s"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 0.409,
+            "unit": "s"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 0.39,
             "unit": "s"
           }
         ]
