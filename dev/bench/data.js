@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782295071864,
+  "lastUpdate": 1782295174686,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -30980,6 +30980,105 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Dustin4444/noir/commit/4123bd2111aff3d3091187aa751f4fc41ec8d684"
         },
         "date": 1782290059197,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 813.2,
+            "unit": "KB"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 774.3,
+            "unit": "KB"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 371.4,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 320.5,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 324.4,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 385.8,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 295.5,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 588.8,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 630.9,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-root",
+            "value": 458,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 687.1,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 860.3,
+            "unit": "KB"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 241.5,
+            "unit": "KB"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 2074.2,
+            "unit": "KB"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 151.2,
+            "unit": "KB"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asterite@gmail.com",
+            "name": "Ary Borenszweig",
+            "username": "asterite"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1fb484651cea30c2df649d63b169ff95c49569e9",
+          "message": "fix(frontend): accept signed integer MIN literals in type position (#13131)\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-06-23T20:06:53Z",
+          "tree_id": "3558177514403624b8390bf3215cec097f18fc2c",
+          "url": "https://github.com/Dustin4444/noir/commit/1fb484651cea30c2df649d63b169ff95c49569e9"
+        },
+        "date": 1782295159920,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
