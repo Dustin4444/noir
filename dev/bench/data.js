@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782353027375,
+  "lastUpdate": 1782353058109,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -4298,85 +4298,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "mvezenov@gmail.com",
-            "name": "Maxim Vezenov",
-            "username": "vezenovm"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": false,
-          "id": "077bb6d9cb08ef3f6c9eab33fef172c33f707f6e",
-          "message": "chore(docs): Brillig VM docs (#9078)",
-          "timestamp": "2025-07-01T20:19:03Z",
-          "tree_id": "79c2308931bd6b786296cb60dd0e0b4678ff66a9",
-          "url": "https://github.com/noir-lang/noir/commit/077bb6d9cb08ef3f6c9eab33fef172c33f707f6e"
-        },
-        "date": 1751403959567,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "private-kernel-inner",
-            "value": 2.388,
-            "unit": "s"
-          },
-          {
-            "name": "private-kernel-reset",
-            "value": 7.768,
-            "unit": "s"
-          },
-          {
-            "name": "private-kernel-tail",
-            "value": 1.268,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-base-private",
-            "value": 15.76,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-base-public",
-            "value": 13.6,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-block-root-empty",
-            "value": 21.7,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-block-root-single-tx",
-            "value": 185,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-block-root",
-            "value": 185,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-merge",
-            "value": 1.31,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-root",
-            "value": 1.424,
-            "unit": "s"
-          },
-          {
-            "name": "semaphore-depth-10",
-            "value": 0.778,
-            "unit": "s"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "15848336+TomAFrench@users.noreply.github.com",
             "name": "Tom French",
             "username": "TomAFrench"
@@ -8561,6 +8482,105 @@ window.BENCHMARK_DATA = {
           {
             "name": "sha512-100-bytes",
             "value": 1.865,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jfecher11@gmail.com",
+            "name": "jfecher",
+            "username": "jfecher"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "02f00e9097ee5326164aa72eea89be0546c8fa23",
+          "message": "fix: reject macro-spliced private types (#12956)",
+          "timestamp": "2026-06-24T15:19:11Z",
+          "tree_id": "258aff26e68f32084f0bed9814b7a51cfd38812d",
+          "url": "https://github.com/Dustin4444/noir/commit/02f00e9097ee5326164aa72eea89be0546c8fa23"
+        },
+        "date": 1782353044086,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 6.31,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 16.04,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 3.02,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 2.272,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 2.14,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 2.28,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 1.828,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 254,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 241,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-root",
+            "value": 2.33,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 18.16,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 111.2,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 2.14,
+            "unit": "s"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 0.906,
+            "unit": "s"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 1.515,
             "unit": "s"
           }
         ]
