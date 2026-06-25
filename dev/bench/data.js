@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782419586847,
+  "lastUpdate": 1782427505521,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -20601,48 +20601,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "15848336+TomAFrench@users.noreply.github.com",
-            "name": "Tom French",
-            "username": "TomAFrench"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "d12ebe77725cfcdeed3ba0c52f408c92b6233aba",
-          "message": "chore: merge `RangeCheckFailed` and `RangeCheckFailedWithMessage` (#9093)",
-          "timestamp": "2025-07-02T13:17:38Z",
-          "tree_id": "79a075493848d73f16b9a7d0ab9abfe5391cd32d",
-          "url": "https://github.com/noir-lang/noir/commit/d12ebe77725cfcdeed3ba0c52f408c92b6233aba"
-        },
-        "date": 1751463776936,
-        "tool": "cargo",
-        "benches": [
-          {
-            "name": "purely_sequential_opcodes",
-            "value": 257657,
-            "range": "± 2210",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "perfectly_parallel_opcodes",
-            "value": 228310,
-            "range": "± 3038",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "perfectly_parallel_batch_inversion_opcodes",
-            "value": 2787393,
-            "range": "± 2850",
-            "unit": "ns/iter"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "mvezenov@gmail.com",
             "name": "Maxim Vezenov",
             "username": "vezenovm"
@@ -22694,6 +22652,48 @@ window.BENCHMARK_DATA = {
             "name": "perfectly_parallel_batch_inversion_opcodes",
             "value": 2653105,
             "range": "± 1396",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asterite@gmail.com",
+            "name": "Ary Borenszweig",
+            "username": "asterite"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ccf76c7def9a307bcb40fd177dc2057fec23cc3b",
+          "message": "chore!: stop recording trait methods in module scope (#13102)\n\nCo-authored-by: Claude Opus 4.8 <noreply@anthropic.com>",
+          "timestamp": "2026-06-25T17:15:45Z",
+          "tree_id": "27cb62f57aca452397ebe6bf0b214d1fc936ed45",
+          "url": "https://github.com/Dustin4444/noir/commit/ccf76c7def9a307bcb40fd177dc2057fec23cc3b"
+        },
+        "date": 1782427491695,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "purely_sequential_opcodes",
+            "value": 175958,
+            "range": "± 1323",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "perfectly_parallel_opcodes",
+            "value": 144187,
+            "range": "± 434",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "perfectly_parallel_batch_inversion_opcodes",
+            "value": 2652095,
+            "range": "± 1953",
             "unit": "ns/iter"
           }
         ]
