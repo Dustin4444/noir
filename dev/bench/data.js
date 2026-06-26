@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782471946661,
+  "lastUpdate": 1782471950037,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -29272,6 +29272,105 @@ window.BENCHMARK_DATA = {
           {
             "name": "sha512-100-bytes",
             "value": 0.374,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jfecher11@gmail.com",
+            "name": "jfecher",
+            "username": "jfecher"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1c2ec0dc5893e0562cf5eb72b10767f30a726c3b",
+          "message": "fix: Nested match unreachable warning (#13185)",
+          "timestamp": "2026-06-26T09:43:03Z",
+          "tree_id": "c403063489ebf80a6241d85c6a650a4b0d60286a",
+          "url": "https://github.com/Dustin4444/noir/commit/1c2ec0dc5893e0562cf5eb72b10767f30a726c3b"
+        },
+        "date": 1782471934681,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 1.854,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 1.898,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 1.682,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 2.176,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 2.09,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 2.26,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 1.226,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 2.84,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 2.94,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-root",
+            "value": 2.2,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 2.328,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 2.412,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 2.054,
+            "unit": "s"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 0.414,
+            "unit": "s"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 0.366,
             "unit": "s"
           }
         ]
