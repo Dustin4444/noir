@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782472077722,
+  "lastUpdate": 1782492680280,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -20796,48 +20796,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "aakoshh@gmail.com",
-            "name": "Akosh Farkash",
-            "username": "aakoshh"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "d356b92012dbbf997757ec58c81150751d5a651d",
-          "message": "chore(fuzz): Test AST print-and-parse roundtrip (#9083)",
-          "timestamp": "2025-07-02T19:10:20Z",
-          "tree_id": "09c1e0f7002fc2d9f249bd14419940358fecb0e6",
-          "url": "https://github.com/noir-lang/noir/commit/d356b92012dbbf997757ec58c81150751d5a651d"
-        },
-        "date": 1751484968067,
-        "tool": "cargo",
-        "benches": [
-          {
-            "name": "purely_sequential_opcodes",
-            "value": 251347,
-            "range": "± 1144",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "perfectly_parallel_opcodes",
-            "value": 220657,
-            "range": "± 1306",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "perfectly_parallel_batch_inversion_opcodes",
-            "value": 2784923,
-            "range": "± 5526",
-            "unit": "ns/iter"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "mvezenov@gmail.com",
             "name": "Maxim Vezenov",
             "username": "vezenovm"
@@ -22889,6 +22847,48 @@ window.BENCHMARK_DATA = {
             "name": "perfectly_parallel_batch_inversion_opcodes",
             "value": 2656560,
             "range": "± 46104",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49558828+AztecBot@users.noreply.github.com",
+            "name": "Aztec Bot",
+            "username": "AztecBot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dabe70276b145f82ef1365b4509203812aafd1b6",
+          "message": "chore(ssa): tests for truncating signed/negative values (#13053)",
+          "timestamp": "2026-06-26T11:46:20Z",
+          "tree_id": "c5d8eb9db2bb4cfbb3090cd2e46674e5246f77d4",
+          "url": "https://github.com/Dustin4444/noir/commit/dabe70276b145f82ef1365b4509203812aafd1b6"
+        },
+        "date": 1782492664202,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "purely_sequential_opcodes",
+            "value": 160388,
+            "range": "± 229",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "perfectly_parallel_opcodes",
+            "value": 138600,
+            "range": "± 841",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "perfectly_parallel_batch_inversion_opcodes",
+            "value": 2124848,
+            "range": "± 975",
             "unit": "ns/iter"
           }
         ]
