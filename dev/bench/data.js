@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782455058560,
+  "lastUpdate": 1782469009745,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -20691,48 +20691,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "mvezenov@gmail.com",
-            "name": "Maxim Vezenov",
-            "username": "vezenovm"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": false,
-          "id": "0098c45d5997ea70df22c98efec83c60ab578869",
-          "message": "fix(ssa): Do not fail for static assertions in a map over empty dynamic slices (#9060)\n\nCo-authored-by: Tom French <15848336+TomAFrench@users.noreply.github.com>",
-          "timestamp": "2025-07-02T16:20:32Z",
-          "tree_id": "a660a3ff2b476c7df9ba2d33b8091473618ff33d",
-          "url": "https://github.com/noir-lang/noir/commit/0098c45d5997ea70df22c98efec83c60ab578869"
-        },
-        "date": 1751474737052,
-        "tool": "cargo",
-        "benches": [
-          {
-            "name": "purely_sequential_opcodes",
-            "value": 250400,
-            "range": "± 671",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "perfectly_parallel_opcodes",
-            "value": 220221,
-            "range": "± 3508",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "perfectly_parallel_batch_inversion_opcodes",
-            "value": 2785563,
-            "range": "± 13725",
-            "unit": "ns/iter"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "aakoshh@gmail.com",
             "name": "Akosh Farkash",
             "username": "aakoshh"
@@ -22784,6 +22742,48 @@ window.BENCHMARK_DATA = {
             "name": "perfectly_parallel_batch_inversion_opcodes",
             "value": 2652095,
             "range": "± 1953",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jfecher11@gmail.com",
+            "name": "jfecher",
+            "username": "jfecher"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1c2ec0dc5893e0562cf5eb72b10767f30a726c3b",
+          "message": "fix: Nested match unreachable warning (#13185)",
+          "timestamp": "2026-06-26T09:43:03Z",
+          "tree_id": "c403063489ebf80a6241d85c6a650a4b0d60286a",
+          "url": "https://github.com/Dustin4444/noir/commit/1c2ec0dc5893e0562cf5eb72b10767f30a726c3b"
+        },
+        "date": 1782468990495,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "purely_sequential_opcodes",
+            "value": 176036,
+            "range": "± 1496",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "perfectly_parallel_opcodes",
+            "value": 146908,
+            "range": "± 333",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "perfectly_parallel_batch_inversion_opcodes",
+            "value": 2656560,
+            "range": "± 46104",
             "unit": "ns/iter"
           }
         ]
