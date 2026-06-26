@@ -1,87 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782508514755,
+  "lastUpdate": 1782508516968,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
-      {
-        "commit": {
-          "author": {
-            "email": "aakoshh@gmail.com",
-            "name": "Akosh Farkash",
-            "username": "aakoshh"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "d356b92012dbbf997757ec58c81150751d5a651d",
-          "message": "chore(fuzz): Test AST print-and-parse roundtrip (#9083)",
-          "timestamp": "2025-07-02T19:10:20Z",
-          "tree_id": "09c1e0f7002fc2d9f249bd14419940358fecb0e6",
-          "url": "https://github.com/noir-lang/noir/commit/d356b92012dbbf997757ec58c81150751d5a651d"
-        },
-        "date": 1751485817260,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "private-kernel-inner",
-            "value": 280.19,
-            "unit": "MB"
-          },
-          {
-            "name": "private-kernel-reset",
-            "value": 534.01,
-            "unit": "MB"
-          },
-          {
-            "name": "private-kernel-tail",
-            "value": 184.58,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-base-private",
-            "value": 1400,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-base-public",
-            "value": 1530,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-block-root-empty",
-            "value": 1090,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-block-root-single-tx",
-            "value": 9380,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-block-root",
-            "value": 9390,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-merge",
-            "value": 333.56,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-root",
-            "value": 343.6,
-            "unit": "MB"
-          },
-          {
-            "name": "semaphore_depth_10",
-            "value": 106.39,
-            "unit": "MB"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -4379,6 +4300,105 @@ window.BENCHMARK_DATA = {
           {
             "name": "rollup-tx-merge",
             "value": 353.05,
+            "unit": "MB"
+          },
+          {
+            "name": "semaphore_depth_10",
+            "value": 103.67,
+            "unit": "MB"
+          },
+          {
+            "name": "sha512_100_bytes",
+            "value": 149.27,
+            "unit": "MB"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49558828+AztecBot@users.noreply.github.com",
+            "name": "Aztec Bot",
+            "username": "AztecBot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dabe70276b145f82ef1365b4509203812aafd1b6",
+          "message": "chore(ssa): tests for truncating signed/negative values (#13053)",
+          "timestamp": "2026-06-26T11:46:20Z",
+          "tree_id": "c5d8eb9db2bb4cfbb3090cd2e46674e5246f77d4",
+          "url": "https://github.com/Dustin4444/noir/commit/dabe70276b145f82ef1365b4509203812aafd1b6"
+        },
+        "date": 1782508495592,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 294.31,
+            "unit": "MB"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 518.35,
+            "unit": "MB"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 275.16,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 353.04,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 353.04,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 353.93,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 353.04,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 6060,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 6060,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-root",
+            "value": 353.17,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 862.8,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 2820,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 353.04,
             "unit": "MB"
           },
           {
