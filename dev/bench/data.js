@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782534676620,
+  "lastUpdate": 1782731091475,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -20976,48 +20976,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "15848336+TomAFrench@users.noreply.github.com",
-            "name": "Tom French",
-            "username": "TomAFrench"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "441f39a13c148be0e666f36549cf8a7a70ae9fca",
-          "message": "fix!: remove `hash_to_field` from stdlib (#9098)\n\nCo-authored-by: Jake Fecher <jfecher11@gmail.com>",
-          "timestamp": "2025-07-02T21:02:53Z",
-          "tree_id": "e483550593a38ac69f3a7f9517ddb13bf7dc0441",
-          "url": "https://github.com/noir-lang/noir/commit/441f39a13c148be0e666f36549cf8a7a70ae9fca"
-        },
-        "date": 1751491672251,
-        "tool": "cargo",
-        "benches": [
-          {
-            "name": "purely_sequential_opcodes",
-            "value": 249879,
-            "range": "± 368",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "perfectly_parallel_opcodes",
-            "value": 220243,
-            "range": "± 7425",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "perfectly_parallel_batch_inversion_opcodes",
-            "value": 2799417,
-            "range": "± 972",
-            "unit": "ns/iter"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "aakoshh@gmail.com",
             "name": "Akosh Farkash",
             "username": "aakoshh"
@@ -23069,6 +23027,48 @@ window.BENCHMARK_DATA = {
             "name": "perfectly_parallel_batch_inversion_opcodes",
             "value": 2655597,
             "range": "± 2106",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "47281315+guipublic@users.noreply.github.com",
+            "name": "guipublic",
+            "username": "guipublic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d66cda7e60f60758ca4a11ad0db1dca191bcdbc6",
+          "message": "chore(spill_manager): simplify LRU update logic for block transitions (#13106)",
+          "timestamp": "2026-06-29T09:36:45Z",
+          "tree_id": "abf5e699963e4f2fa69c99080ff4e2ef9f531d19",
+          "url": "https://github.com/Dustin4444/noir/commit/d66cda7e60f60758ca4a11ad0db1dca191bcdbc6"
+        },
+        "date": 1782731076521,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "purely_sequential_opcodes",
+            "value": 176310,
+            "range": "± 715",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "perfectly_parallel_opcodes",
+            "value": 143455,
+            "range": "± 501",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "perfectly_parallel_batch_inversion_opcodes",
+            "value": 2656186,
+            "range": "± 13695",
             "unit": "ns/iter"
           }
         ]
