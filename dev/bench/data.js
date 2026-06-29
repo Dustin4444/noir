@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782741636333,
+  "lastUpdate": 1782741702486,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -29939,6 +29939,105 @@ window.BENCHMARK_DATA = {
           {
             "name": "sha512-100-bytes",
             "value": 0.365,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "47281315+guipublic@users.noreply.github.com",
+            "name": "guipublic",
+            "username": "guipublic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d66cda7e60f60758ca4a11ad0db1dca191bcdbc6",
+          "message": "chore(spill_manager): simplify LRU update logic for block transitions (#13106)",
+          "timestamp": "2026-06-29T09:36:45Z",
+          "tree_id": "abf5e699963e4f2fa69c99080ff4e2ef9f531d19",
+          "url": "https://github.com/Dustin4444/noir/commit/d66cda7e60f60758ca4a11ad0db1dca191bcdbc6"
+        },
+        "date": 1782741686581,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 1.89,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 1.94,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 1.692,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 2.106,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 2.08,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 1.86,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 1.734,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 2.85,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 2.74,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-root",
+            "value": 2.24,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 2.266,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 2.462,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 2.162,
+            "unit": "s"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 0.389,
+            "unit": "s"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 0.373,
             "unit": "s"
           }
         ]
