@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782772421563,
+  "lastUpdate": 1782773201222,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -21156,48 +21156,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "15848336+TomAFrench@users.noreply.github.com",
-            "name": "Tom French",
-            "username": "TomAFrench"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": false,
-          "id": "0245e02cfc0f8b6b55586de529a7d9a401e1ead4",
-          "message": "chore: clippy (#9101)",
-          "timestamp": "2025-07-03T16:55:05Z",
-          "tree_id": "9512b2b9f4993dfb28313498c913c5853ee797b7",
-          "url": "https://github.com/noir-lang/noir/commit/0245e02cfc0f8b6b55586de529a7d9a401e1ead4"
-        },
-        "date": 1751564161423,
-        "tool": "cargo",
-        "benches": [
-          {
-            "name": "purely_sequential_opcodes",
-            "value": 251950,
-            "range": "± 738",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "perfectly_parallel_opcodes",
-            "value": 220548,
-            "range": "± 2593",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "perfectly_parallel_batch_inversion_opcodes",
-            "value": 2783570,
-            "range": "± 5944",
-            "unit": "ns/iter"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "jfecher11@gmail.com",
             "name": "jfecher",
             "username": "jfecher"
@@ -23249,6 +23207,48 @@ window.BENCHMARK_DATA = {
             "name": "perfectly_parallel_batch_inversion_opcodes",
             "value": 2655696,
             "range": "± 2052",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asterite@gmail.com",
+            "name": "Ary Borenszweig",
+            "username": "asterite"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "506e826b3e7cff04662f5fa86fee2fc6d509c376",
+          "message": "chore: refactor variable path resolution (#13197)\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-06-29T16:52:21Z",
+          "tree_id": "c8ffe04f979037083c959e5f8d00857137ffdab5",
+          "url": "https://github.com/Dustin4444/noir/commit/506e826b3e7cff04662f5fa86fee2fc6d509c376"
+        },
+        "date": 1782773185309,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "purely_sequential_opcodes",
+            "value": 160640,
+            "range": "± 265",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "perfectly_parallel_opcodes",
+            "value": 138479,
+            "range": "± 305",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "perfectly_parallel_batch_inversion_opcodes",
+            "value": 2124901,
+            "range": "± 5482",
             "unit": "ns/iter"
           }
         ]
