@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782784024365,
+  "lastUpdate": 1782784208087,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -30387,6 +30387,105 @@ window.BENCHMARK_DATA = {
           {
             "name": "sha512-100-bytes",
             "value": 0.373,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asterite@gmail.com",
+            "name": "Ary Borenszweig",
+            "username": "asterite"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "506e826b3e7cff04662f5fa86fee2fc6d509c376",
+          "message": "chore: refactor variable path resolution (#13197)\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-06-29T16:52:21Z",
+          "tree_id": "c8ffe04f979037083c959e5f8d00857137ffdab5",
+          "url": "https://github.com/Dustin4444/noir/commit/506e826b3e7cff04662f5fa86fee2fc6d509c376"
+        },
+        "date": 1782784192947,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 1.782,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 1.94,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 1.668,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 1.128,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 1.7,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 2.05,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 2.232,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 2.64,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 2.79,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-root",
+            "value": 2.234,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 2.228,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 2.376,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 1.998,
+            "unit": "s"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 0.384,
+            "unit": "s"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 0.365,
             "unit": "s"
           }
         ]
