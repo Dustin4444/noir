@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782783993019,
+  "lastUpdate": 1782784024365,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -4498,85 +4498,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "15848336+TomAFrench@users.noreply.github.com",
-            "name": "Tom French",
-            "username": "TomAFrench"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": false,
-          "id": "0245e02cfc0f8b6b55586de529a7d9a401e1ead4",
-          "message": "chore: clippy (#9101)",
-          "timestamp": "2025-07-03T16:55:05Z",
-          "tree_id": "9512b2b9f4993dfb28313498c913c5853ee797b7",
-          "url": "https://github.com/noir-lang/noir/commit/0245e02cfc0f8b6b55586de529a7d9a401e1ead4"
-        },
-        "date": 1751564570275,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "private-kernel-inner",
-            "value": 2.464,
-            "unit": "s"
-          },
-          {
-            "name": "private-kernel-reset",
-            "value": 7.976,
-            "unit": "s"
-          },
-          {
-            "name": "private-kernel-tail",
-            "value": 1.188,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-base-private",
-            "value": 16.78,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-base-public",
-            "value": 14.1,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-block-root-empty",
-            "value": 20.4,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-block-root-single-tx",
-            "value": 217,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-block-root",
-            "value": 212,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-merge",
-            "value": 1.33,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-root",
-            "value": 1.43,
-            "unit": "s"
-          },
-          {
-            "name": "semaphore-depth-10",
-            "value": 0.789,
-            "unit": "s"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "jfecher11@gmail.com",
             "name": "jfecher",
             "username": "jfecher"
@@ -8961,6 +8882,105 @@ window.BENCHMARK_DATA = {
           {
             "name": "sha512-100-bytes",
             "value": 1.626,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asterite@gmail.com",
+            "name": "Ary Borenszweig",
+            "username": "asterite"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "506e826b3e7cff04662f5fa86fee2fc6d509c376",
+          "message": "chore: refactor variable path resolution (#13197)\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-06-29T16:52:21Z",
+          "tree_id": "c8ffe04f979037083c959e5f8d00857137ffdab5",
+          "url": "https://github.com/Dustin4444/noir/commit/506e826b3e7cff04662f5fa86fee2fc6d509c376"
+        },
+        "date": 1782784009946,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 6.084,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 16.14,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 2.904,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 1.154,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 1.73,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 2.13,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 2.28,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 245,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 276,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-root",
+            "value": 2.334,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 15.34,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 111,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 2.176,
+            "unit": "s"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 0.851,
+            "unit": "s"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 1.631,
             "unit": "s"
           }
         ]
