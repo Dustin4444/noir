@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782858733205,
+  "lastUpdate": 1782858869001,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -13402,75 +13402,6 @@ window.BENCHMARK_DATA = {
             "username": "web-flow"
           },
           "distinct": true,
-          "id": "5b505240a81905387d7e2fd601674d216617389f",
-          "message": "chore: test that associated function and constant with the same name collide (#9112)",
-          "timestamp": "2025-07-03T19:20:25Z",
-          "tree_id": "b989d36920554b4ca9755a36bb31fb928b5410b9",
-          "url": "https://github.com/noir-lang/noir/commit/5b505240a81905387d7e2fd601674d216617389f"
-        },
-        "date": 1751572874114,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "private-kernel-inner",
-            "value": 198.9,
-            "unit": "MB"
-          },
-          {
-            "name": "private-kernel-reset",
-            "value": 222.69,
-            "unit": "MB"
-          },
-          {
-            "name": "private-kernel-tail",
-            "value": 174.23,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-base-private",
-            "value": 500.65,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-base-public",
-            "value": 433.86,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-block-root",
-            "value": 1510,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-merge",
-            "value": 322.75,
-            "unit": "MB"
-          },
-          {
-            "name": "rollup-root",
-            "value": 325.35,
-            "unit": "MB"
-          },
-          {
-            "name": "semaphore_depth_10",
-            "value": 69.14,
-            "unit": "MB"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "asterite@gmail.com",
-            "name": "Ary Borenszweig",
-            "username": "asterite"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
           "id": "4f69354be3db5367729628f56cf4c21634f6358e",
           "message": "chore: remove redundant associated constant lookup (#9114)",
           "timestamp": "2025-07-03T20:51:03Z",
@@ -17370,6 +17301,95 @@ window.BENCHMARK_DATA = {
           {
             "name": "rollup-root",
             "value": 354.2,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 459.43,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 472.13,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 353.73,
+            "unit": "MB"
+          },
+          {
+            "name": "semaphore_depth_10",
+            "value": 83.99,
+            "unit": "MB"
+          },
+          {
+            "name": "sha512_100_bytes",
+            "value": 77.74,
+            "unit": "MB"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asterite@gmail.com",
+            "name": "Ary Borenszweig",
+            "username": "asterite"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7e0734312173017c7a33053ffb77a08330ad770a",
+          "message": "fix(ssa): bail out of Brillig array offset when shifted index overflows addressing bits (#13122)\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-06-30T12:38:42Z",
+          "tree_id": "946040d67bccebee5a6618a57770ac4d9a749b70",
+          "url": "https://github.com/Dustin4444/noir/commit/7e0734312173017c7a33053ffb77a08330ad770a"
+        },
+        "date": 1782858854299,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 283.38,
+            "unit": "MB"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 307.85,
+            "unit": "MB"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 279.44,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 354.09,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 354.04,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 1280,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 1280,
+            "unit": "MB"
+          },
+          {
+            "name": "rollup-root",
+            "value": 354.21,
             "unit": "MB"
           },
           {
