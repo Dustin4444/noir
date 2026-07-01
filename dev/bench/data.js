@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782925682379,
+  "lastUpdate": 1782925684320,
   "repoUrl": "https://github.com/Dustin4444/noir",
   "entries": {
     "Compilation Memory": [
@@ -4598,85 +4598,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "47281315+guipublic@users.noreply.github.com",
-            "name": "guipublic",
-            "username": "guipublic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": false,
-          "id": "3beb8f5456df2ecc9dbf6a415ba47663fa100dfc",
-          "message": "fix: use enable_side_effects for u128 multiplication overflow checks (#9115)",
-          "timestamp": "2025-07-04T14:00:38Z",
-          "tree_id": "b542a6a303c9d628961bc3fea4c635ff4d730003",
-          "url": "https://github.com/noir-lang/noir/commit/3beb8f5456df2ecc9dbf6a415ba47663fa100dfc"
-        },
-        "date": 1751639579869,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "private-kernel-inner",
-            "value": 2.556,
-            "unit": "s"
-          },
-          {
-            "name": "private-kernel-reset",
-            "value": 8.194,
-            "unit": "s"
-          },
-          {
-            "name": "private-kernel-tail",
-            "value": 1.276,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-base-private",
-            "value": 16.28,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-base-public",
-            "value": 14.9,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-block-root-empty",
-            "value": 20.16,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-block-root-single-tx",
-            "value": 188,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-block-root",
-            "value": 206,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-merge",
-            "value": 1.34,
-            "unit": "s"
-          },
-          {
-            "name": "rollup-root",
-            "value": 1.472,
-            "unit": "s"
-          },
-          {
-            "name": "semaphore-depth-10",
-            "value": 0.795,
-            "unit": "s"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "15848336+TomAFrench@users.noreply.github.com",
             "name": "Tom French",
             "username": "TomAFrench"
@@ -9161,6 +9082,105 @@ window.BENCHMARK_DATA = {
           {
             "name": "sha512-100-bytes",
             "value": 1.643,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asterite@gmail.com",
+            "name": "Ary Borenszweig",
+            "username": "asterite"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "035377036289885f7a5744b0af5b7e29e15815dc",
+          "message": "fix(wasm): reject unsafe numbers in ABI after decoding them (#13226)",
+          "timestamp": "2026-07-01T14:49:35Z",
+          "tree_id": "560ae355086709a77983cbe2bcca67da27ac802c",
+          "url": "https://github.com/Dustin4444/noir/commit/035377036289885f7a5744b0af5b7e29e15815dc"
+        },
+        "date": 1782925665167,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "private-kernel-inner",
+            "value": 6.204,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-reset",
+            "value": 17.24,
+            "unit": "s"
+          },
+          {
+            "name": "private-kernel-tail",
+            "value": 2.806,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-first-empty-tx",
+            "value": 2.136,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root-single-tx",
+            "value": 2.09,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-block-root",
+            "value": 2.2,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-merge",
+            "value": 2.2,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root-single-block",
+            "value": 285,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-checkpoint-root",
+            "value": 277,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-root",
+            "value": 2.244,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-private",
+            "value": 14.32,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-base-public",
+            "value": 116.4,
+            "unit": "s"
+          },
+          {
+            "name": "rollup-tx-merge",
+            "value": 2.172,
+            "unit": "s"
+          },
+          {
+            "name": "semaphore-depth-10",
+            "value": 0.864,
+            "unit": "s"
+          },
+          {
+            "name": "sha512-100-bytes",
+            "value": 1.54,
             "unit": "s"
           }
         ]
