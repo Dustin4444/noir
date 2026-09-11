@@ -17,7 +17,7 @@
     "url": "https://github.com/noir-lang/noir/issues"
   },
   "dependencies": {
-    "@noir-lang/types": "workspace:*",
+    "@noir-lang/types": "0.14.1",
     "glob": "^13.0.6",
     "ts-command-line-args": "^2.5.1"
   },
