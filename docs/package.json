@@ -39,7 +39,7 @@
     "docusaurus-plugin-llms": "^0.4.0",
     "docusaurus-plugin-typedoc": "1.4.2",
     "eslint-plugin-prettier": "^5.5.5",
-    "netlify-cli": "^24.11.3",
+    "netlify-cli": "^26.0.2",
     "prettier": "3.8.3",
     "serve": "^14.2.6",
     "ts-node": "^10.9.2",
